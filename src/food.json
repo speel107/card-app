@@ -1,0 +1,202 @@
+[
+    {
+      "name": "Margherita Pizza",
+      "category": "Italian",
+      "subcategory": "Pizza",
+      "description": "Classic Italian pizza topped with tomato sauce, mozzarella cheese, and fresh basil."
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "category": "Italian",
+      "subcategory": "Pizza",
+      "description": "Pizza topped with spicy pepperoni slices and melted cheese on a thin crust."
+    },
+    {
+      "name": "Four Cheese Pizza",
+      "category": "Italian",
+      "subcategory": "Pizza",
+      "description": "Pizza topped with a blend of four cheeses, such as mozzarella, parmesan, fontina, and gorgonzola."
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "category": "Italian",
+      "subcategory": "Pasta",
+      "description": "Spaghetti pasta served with a rich and savory Bolognese sauce made with ground meat, tomatoes, and herbs."
+    },
+    {
+      "name": "Penne Arrabiata",
+      "category": "Italian",
+      "subcategory": "Pasta",
+      "description": "Penne pasta served with a spicy tomato sauce seasoned with garlic, red chili peppers, and olive oil."
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "category": "Italian",
+      "subcategory": "Pasta",
+      "description": "Fettuccine pasta served with a creamy Alfredo sauce made with butter, cream, and Parmesan cheese."
+    },
+    {
+      "name": "Tiramisu",
+      "category": "Italian",
+      "subcategory": "Dessert",
+      "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese, dusted with cocoa powder."
+    },
+    {
+      "name": "Cannoli",
+      "category": "Italian",
+      "subcategory": "Dessert",
+      "description": "Traditional Italian pastry dessert tube filled with sweet, creamy ricotta cheese and chocolate chips."
+    },
+    {
+      "name": "Gelato",
+      "category": "Italian",
+      "subcategory": "Dessert",
+      "description": "Italian frozen dessert similar to ice cream but with a denser and creamier texture."
+    },
+    {
+      "name": "Salmon Sushi Roll",
+      "category": "Japanese",
+      "subcategory": "Sushi Rolls",
+      "description": "Sushi roll filled with fresh salmon, rice, and vegetables, wrapped in seaweed."
+    },
+    {
+      "name": "Tuna Sushi Roll",
+      "category": "Japanese",
+      "subcategory": "Sushi Rolls",
+      "description": "Sushi roll filled with fresh tuna, rice, and vegetables, wrapped in seaweed."
+    },
+    {
+      "name": "California Roll",
+      "category": "Japanese",
+      "subcategory": "Sushi Rolls",
+      "description": "Popular sushi roll made with imitation crab, avocado, cucumber, and rice, wrapped in seaweed."
+    },
+    {
+      "name": "Shrimp Tempura",
+      "category": "Japanese",
+      "subcategory": "Fried Dishes",
+      "description": "Shrimp coated in tempura batter and deep-fried until crispy, served with dipping sauce."
+    },
+    {
+      "name": "Vegetable Tempura",
+      "category": "Japanese",
+      "subcategory": "Fried Dishes",
+      "description": "Assorted vegetables (such as sweet potato, bell pepper, and broccoli) coated in tempura batter and deep-fried."
+    },
+    {
+      "name": "Chicken Karaage",
+      "category": "Japanese",
+      "subcategory": "Fried Dishes",
+      "description": "Japanese-style fried chicken marinated in soy sauce, garlic, and ginger, then coated in flour and deep-fried."
+    },
+    {
+      "name": "Tonkotsu Ramen",
+      "category": "Japanese",
+      "subcategory": "Noodles",
+      "description": "Ramen noodles served in a rich and creamy pork bone broth, topped with slices of pork, green onions, and egg."
+    },
+    {
+      "name": "Miso Ramen",
+      "category": "Japanese",
+      "subcategory": "Noodles",
+      "description": "Ramen noodles served in a savory miso broth, topped with slices of pork, green onions, and bean sprouts."
+    },
+    {
+      "name": "Shoyu Ramen",
+      "category": "Japanese",
+      "subcategory": "Noodles",
+      "description": "Ramen noodles served in a clear soy sauce-based broth, topped with slices of pork, bamboo shoots, and nori seaweed."
+    },
+    {
+      "name": "Matcha Ice Cream",
+      "category": "Japanese",
+      "subcategory": "Dessert",
+      "description": "Green tea-flavored ice cream made from matcha powder, milk, and sugar."
+    },
+    {
+      "name": "Red Bean Ice Cream",
+      "category": "Japanese",
+      "subcategory": "Dessert",
+      "description": "Creamy ice cream flavored with sweet red bean paste, a popular dessert in Japan."
+    },
+    {
+      "name": "Sesame Seed Ice Cream",
+      "category": "Japanese",
+      "subcategory": "Dessert",
+      "description": "Rich and nutty ice cream flavored with toasted sesame seeds."
+    },
+    {
+      "name": "Chicken Tacos",
+      "category": "Mexican",
+      "subcategory": "Tacos",
+      "description": "Soft or crispy taco shells filled with seasoned shredded chicken, lettuce, cheese, and salsa."
+    },
+    {
+      "name": "Beef Tacos",
+      "category": "Mexican",
+      "subcategory": "Tacos",
+      "description": "Tacos filled with seasoned ground beef, lettuce, cheese, and salsa, served in soft or crispy taco shells."
+    },
+    {
+      "name": "Fish Tacos",
+      "category": "Mexican",
+      "subcategory": "Tacos",
+      "description": "Tacos filled with fried or grilled fish (such as tilapia or cod), cabbage slaw, and creamy sauce, served in soft corn tortillas."
+    },
+    {
+      "name": "Beef Burrito",
+      "category": "Mexican",
+      "subcategory": "Burritos",
+      "description": "Large flour tortilla filled with seasoned ground beef, rice, beans, cheese, and salsa, rolled up and grilled until crispy."
+    },
+    {
+      "name": "Chicken Burrito",
+      "category": "Mexican",
+      "subcategory": "Burritos",
+      "description": "Large flour tortilla filled with seasoned shredded chicken, rice, beans, cheese, and salsa, rolled up and grilled until crispy."
+    },
+    {
+      "name": "Vegetarian Burrito",
+      "category": "Mexican",
+      "subcategory": "Burritos",
+      "description": "Large flour tortilla filled with rice, beans, cheese, vegetables (such as bell peppers and onions), and salsa, rolled up and grilled until crispy."
+    },
+    {
+      "name": "Guacamole",
+      "category": "Mexican",
+      "subcategory": "Dips & Salsas",
+      "description": "Creamy avocado dip made with mashed avocados, lime juice, onions, tomatoes, and cilantro."
+    },
+    {
+      "name": "Salsa Verde",
+      "category": "Mexican",
+      "subcategory": "Dips & Salsas",
+      "description": "Green salsa made with tomatillos, green chilies, onions, cilantro, and lime juice, with a tangy and slightly spicy flavor."
+    },
+    {
+      "name": "Pico de Gallo",
+      "category": "Mexican",
+      "subcategory": "Dips & Salsas",
+      "description": "Fresh salsa made with diced tomatoes, onions, jalapenos, cilantro, and lime juice, served as a topping or dip."
+    },
+    {
+      "name": "Churros",
+      "category": "Mexican",
+      "subcategory": "Dessert",
+      "description": "Deep-fried dough pastry sprinkled with cinnamon sugar, often served with chocolate or caramel dipping sauce."
+    },
+    {
+      "name": "Flan",
+      "category": "Mexican",
+      "subcategory": "Dessert",
+      "description": "Creamy caramel custard dessert with a smooth texture and rich flavor, topped with caramel sauce."
+    },
+    {
+      "name": "Tres Leches Cake",
+      "category": "Mexican",
+      "subcategory": "Dessert",
+      "description": "Moist sponge cake soaked in a mixture of three milks (evaporated milk, condensed milk, and heavy cream), topped with whipped cream and fresh fruit."
+    }
+]
+  
+  

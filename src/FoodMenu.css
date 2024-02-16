@@ -1,0 +1,65 @@
+/* FoodMenu.css */
+.food-menu {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tabs button {
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tabs button.selected {
+    border-bottom-color: #333;
+  }
+  
+  .subtabs {
+    display: flex;
+  }
+  
+  .subtabs button {
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .subtabs button.selected {
+    border-bottom-color: #333;
+  }
+  
+  .food-menu .food-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .food-menu .food-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .food-menu .food-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .food-menu .food-card p {
+    margin-bottom: 0;
+  }
+  
