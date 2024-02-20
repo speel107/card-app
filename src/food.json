@@ -1,202 +1,322 @@
 [
-    {
-      "name": "Margherita Pizza",
-      "category": "Italian",
-      "subcategory": "Pizza",
-      "description": "Classic Italian pizza topped with tomato sauce, mozzarella cheese, and fresh basil."
-    },
-    {
-      "name": "Pepperoni Pizza",
-      "category": "Italian",
-      "subcategory": "Pizza",
-      "description": "Pizza topped with spicy pepperoni slices and melted cheese on a thin crust."
-    },
-    {
-      "name": "Four Cheese Pizza",
-      "category": "Italian",
-      "subcategory": "Pizza",
-      "description": "Pizza topped with a blend of four cheeses, such as mozzarella, parmesan, fontina, and gorgonzola."
-    },
-    {
-      "name": "Spaghetti Bolognese",
-      "category": "Italian",
-      "subcategory": "Pasta",
-      "description": "Spaghetti pasta served with a rich and savory Bolognese sauce made with ground meat, tomatoes, and herbs."
-    },
-    {
-      "name": "Penne Arrabiata",
-      "category": "Italian",
-      "subcategory": "Pasta",
-      "description": "Penne pasta served with a spicy tomato sauce seasoned with garlic, red chili peppers, and olive oil."
-    },
-    {
-      "name": "Fettuccine Alfredo",
-      "category": "Italian",
-      "subcategory": "Pasta",
-      "description": "Fettuccine pasta served with a creamy Alfredo sauce made with butter, cream, and Parmesan cheese."
-    },
-    {
-      "name": "Tiramisu",
-      "category": "Italian",
-      "subcategory": "Dessert",
-      "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese, dusted with cocoa powder."
-    },
-    {
-      "name": "Cannoli",
-      "category": "Italian",
-      "subcategory": "Dessert",
-      "description": "Traditional Italian pastry dessert tube filled with sweet, creamy ricotta cheese and chocolate chips."
-    },
-    {
-      "name": "Gelato",
-      "category": "Italian",
-      "subcategory": "Dessert",
-      "description": "Italian frozen dessert similar to ice cream but with a denser and creamier texture."
-    },
-    {
-      "name": "Salmon Sushi Roll",
-      "category": "Japanese",
-      "subcategory": "Sushi Rolls",
-      "description": "Sushi roll filled with fresh salmon, rice, and vegetables, wrapped in seaweed."
-    },
-    {
-      "name": "Tuna Sushi Roll",
-      "category": "Japanese",
-      "subcategory": "Sushi Rolls",
-      "description": "Sushi roll filled with fresh tuna, rice, and vegetables, wrapped in seaweed."
-    },
-    {
-      "name": "California Roll",
-      "category": "Japanese",
-      "subcategory": "Sushi Rolls",
-      "description": "Popular sushi roll made with imitation crab, avocado, cucumber, and rice, wrapped in seaweed."
-    },
-    {
-      "name": "Shrimp Tempura",
-      "category": "Japanese",
-      "subcategory": "Fried Dishes",
-      "description": "Shrimp coated in tempura batter and deep-fried until crispy, served with dipping sauce."
-    },
-    {
-      "name": "Vegetable Tempura",
-      "category": "Japanese",
-      "subcategory": "Fried Dishes",
-      "description": "Assorted vegetables (such as sweet potato, bell pepper, and broccoli) coated in tempura batter and deep-fried."
-    },
-    {
-      "name": "Chicken Karaage",
-      "category": "Japanese",
-      "subcategory": "Fried Dishes",
-      "description": "Japanese-style fried chicken marinated in soy sauce, garlic, and ginger, then coated in flour and deep-fried."
-    },
-    {
-      "name": "Tonkotsu Ramen",
-      "category": "Japanese",
-      "subcategory": "Noodles",
-      "description": "Ramen noodles served in a rich and creamy pork bone broth, topped with slices of pork, green onions, and egg."
-    },
-    {
-      "name": "Miso Ramen",
-      "category": "Japanese",
-      "subcategory": "Noodles",
-      "description": "Ramen noodles served in a savory miso broth, topped with slices of pork, green onions, and bean sprouts."
-    },
-    {
-      "name": "Shoyu Ramen",
-      "category": "Japanese",
-      "subcategory": "Noodles",
-      "description": "Ramen noodles served in a clear soy sauce-based broth, topped with slices of pork, bamboo shoots, and nori seaweed."
-    },
-    {
-      "name": "Matcha Ice Cream",
-      "category": "Japanese",
-      "subcategory": "Dessert",
-      "description": "Green tea-flavored ice cream made from matcha powder, milk, and sugar."
-    },
-    {
-      "name": "Red Bean Ice Cream",
-      "category": "Japanese",
-      "subcategory": "Dessert",
-      "description": "Creamy ice cream flavored with sweet red bean paste, a popular dessert in Japan."
-    },
-    {
-      "name": "Sesame Seed Ice Cream",
-      "category": "Japanese",
-      "subcategory": "Dessert",
-      "description": "Rich and nutty ice cream flavored with toasted sesame seeds."
-    },
-    {
-      "name": "Chicken Tacos",
-      "category": "Mexican",
-      "subcategory": "Tacos",
-      "description": "Soft or crispy taco shells filled with seasoned shredded chicken, lettuce, cheese, and salsa."
-    },
-    {
-      "name": "Beef Tacos",
-      "category": "Mexican",
-      "subcategory": "Tacos",
-      "description": "Tacos filled with seasoned ground beef, lettuce, cheese, and salsa, served in soft or crispy taco shells."
-    },
-    {
-      "name": "Fish Tacos",
-      "category": "Mexican",
-      "subcategory": "Tacos",
-      "description": "Tacos filled with fried or grilled fish (such as tilapia or cod), cabbage slaw, and creamy sauce, served in soft corn tortillas."
-    },
-    {
-      "name": "Beef Burrito",
-      "category": "Mexican",
-      "subcategory": "Burritos",
-      "description": "Large flour tortilla filled with seasoned ground beef, rice, beans, cheese, and salsa, rolled up and grilled until crispy."
-    },
-    {
-      "name": "Chicken Burrito",
-      "category": "Mexican",
-      "subcategory": "Burritos",
-      "description": "Large flour tortilla filled with seasoned shredded chicken, rice, beans, cheese, and salsa, rolled up and grilled until crispy."
-    },
-    {
-      "name": "Vegetarian Burrito",
-      "category": "Mexican",
-      "subcategory": "Burritos",
-      "description": "Large flour tortilla filled with rice, beans, cheese, vegetables (such as bell peppers and onions), and salsa, rolled up and grilled until crispy."
-    },
-    {
-      "name": "Guacamole",
-      "category": "Mexican",
-      "subcategory": "Dips & Salsas",
-      "description": "Creamy avocado dip made with mashed avocados, lime juice, onions, tomatoes, and cilantro."
-    },
-    {
-      "name": "Salsa Verde",
-      "category": "Mexican",
-      "subcategory": "Dips & Salsas",
-      "description": "Green salsa made with tomatillos, green chilies, onions, cilantro, and lime juice, with a tangy and slightly spicy flavor."
-    },
-    {
-      "name": "Pico de Gallo",
-      "category": "Mexican",
-      "subcategory": "Dips & Salsas",
-      "description": "Fresh salsa made with diced tomatoes, onions, jalapenos, cilantro, and lime juice, served as a topping or dip."
-    },
-    {
-      "name": "Churros",
-      "category": "Mexican",
-      "subcategory": "Dessert",
-      "description": "Deep-fried dough pastry sprinkled with cinnamon sugar, often served with chocolate or caramel dipping sauce."
-    },
-    {
-      "name": "Flan",
-      "category": "Mexican",
-      "subcategory": "Dessert",
-      "description": "Creamy caramel custard dessert with a smooth texture and rich flavor, topped with caramel sauce."
-    },
-    {
-      "name": "Tres Leches Cake",
-      "category": "Mexican",
-      "subcategory": "Dessert",
-      "description": "Moist sponge cake soaked in a mixture of three milks (evaporated milk, condensed milk, and heavy cream), topped with whipped cream and fresh fruit."
-    }
+  {
+    "code": "CS 111",
+    "category": "100",
+    "subcategory": "Intro",
+    "name": "Intro to Computer Science.",
+    "credits": "3",
+    "description": "Teaches how to design, develop, reason about, and test programs. Topics include higher-order functions, object-oriented programming, recursion, algorithms, data structures, decomposition, interpreters, and regular expressions.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "None"
+  },
+  {
+    "code": "CS 224",
+    "category": "200",
+    "subcategory": "Required",
+    "name": "Computer Systems",
+    "credits": "3",
+    "description": "How a computer works to execute sequential code: low level data representation and abstraction, the relationship between C and assembly, computer architecture and pipelining, the memory hierarchy, dynamic memory allocation, and linking.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "CS 235"
+  },
+  {
+    "code": "CS 235",
+    "category": "200",
+    "subcategory": "Required",
+    "name": "Data Structures",
+    "credits": "3",
+    "description": "Fundamental data structures and algorithms of computer science; basic algorithm analysis; recursion; sorting and searching; lists, stacks, queues, trees, hashing; object-oriented data abstraction.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "CS 111"
+  },
+  {
+    "code": "CS 236",
+    "category": "200",
+    "subcategory": "Required",
+    "name": "Discrete Structure",
+    "credits": "3",
+    "description": "Introduction to grammars and parsing; predicate and propositional logic; proof techniques; sets, functions, relations, relational data model; graphs and graph algorithms.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "CS 235"
+  },
+  {
+    "code": "CS 240",
+    "category": "200",
+    "subcategory": "Required",
+    "name": "Adv Software Construction",
+    "credits": "4",
+    "description": "Advanced software development with an object-oriented focus. Design, implementation, and testing of medium-sized programs including a server program.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "CS 235"
+  },
+  {
+    "code": "CS 252",
+    "category": "200",
+    "subcategory": "Required",
+    "name": "Intro to Computational Theory",
+    "credits": "3",
+    "description": "Finite state automata, regular languages, lexical analysis; push-down automata, context-free languages, parsing; Turing machines and unrestricted grammars; computability complexity, NP-completeness.",
+    "whenTaught": "Fall/Winter/Spring",
+    "prereqs": "CS 236"
+  },
+  {
+    "code": "CS 260",
+    "category": "200",
+    "subcategory": "Required",
+    "name": "Web Programming",
+    "credits": "3",
+    "description": "Introduction to web application design and implementation. Both front end and back end development with an emphasis on REST architectures.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 111"
+  },
+  {
+    "code": "CS 312",
+    "category": "300",
+    "subcategory": "Required",
+    "name": "Algorithm Design & Analysis",
+    "credits": "3",
+    "description": "A study of the design and analysis of algorithms as solutions to problems, including dynamic programming, linear programming, greedy algorithms, divide-and-conquer algorithms, graph algorithms, and intelligent search algorithms.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 236"
+  },
+  {
+    "code": "CS 324",
+    "category": "300",
+    "subcategory": "Required",
+    "name": "Systems Programming",
+    "credits": "3",
+    "description": "Systems programming principles and concepts, including Linux systems programming, multiprocessing, concurrency, exceptional control flow, caching, sockets, protocols, and non-blocking I/O.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 324"
+  },
+  {
+    "code": "CS 340",
+    "category": "300",
+    "subcategory": "Required",
+    "name": "Software Design",
+    "credits": "3",
+    "description": "Use design, development, testing and refactoring techniques to build and evolve reliable, maintainable and scalable software systems. Covers a wide range of design patterns and principles. Also introduces students to software architecture and architectural patterns.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "CS 240, CS 260"
+  },
+  {
+    "code": "CS 404",
+    "category": "400",
+    "subcategory": "Required",
+    "name": "Ethics & Computers in Society",
+    "credits": "2",
+    "description": "Societal impact of computer technology, the computer scientist's place in society, ethical issues. Reading, discussion, and writing seminar.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 240, WRTG 316"
+  },
+  {
+    "code": "CS 450",
+    "category": "400",
+    "subcategory": "Machine Learning",
+    "name": "Computer Vision",
+    "credits": "3",
+    "description": "Introduction to fundamental concepts and algorithms of computer vision, including feature extraction, detection, segmentation, registration, recognition, motion, 3D vision, and image understanding. Applies techniques from image processing, geometry, Bayesian methods, optimization, and machine learning to computer vision problems.",
+    "whenTaught": "Winter",
+    "prereqs": "CS 312"
+  },
+  {
+    "code": "CS 470",
+    "category": "400",
+    "subcategory": "Machine Learning",
+    "name": "Intro Artificial Intelligence",
+    "credits": "3",
+    "description": "Introduction to core areas of artifical intelligence; intelligent agents, problem solving and search, knowledge-based systems and inference, planning, uncertainty, learning, and perception.",
+    "whenTaught": "Fall",
+    "prereqs": "CS 312, MATH 215, STAT 121"
+  },
+  {
+    "code": "CS 471",
+    "category": "400",
+    "subcategory": "Machine Learning",
+    "name": "Voice Interfaces",
+    "credits": "3",
+    "description": "Methods and development platforms for Voice User Interfaces. Principles of effective design; differences from visual or menu-based interfaces’ mechanics of automatic speech recognition, intent detection, slot filling, dialog state tracking, text generation, and knowledge representation.",
+    "whenTaught": "Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CS 479",
+    "category": "400",
+    "subcategory": "Machine Learning",
+    "name": "Intro to Machine Translation",
+    "credits": "3",
+    "description": "Evolution of machine translation technologies and algorithms, with a foundation in basic algorithms, human-machine interaction, automatic adaptation, statistical and neural models, multilingual models, multimodal models, quality evaluation and estimation, and speech-to-speech translation.",
+    "whenTaught": "Fall",
+    "prereqs": "CS 240"
+  },
+  {
+    "code": "CS 453",
+    "category": "400",
+    "subcategory": "Machine Learning",
+    "name": "Fund of Information Retrieval",
+    "credits": "3",
+    "description": "Concepts and terminology of information retrieval (IR) systems. Design methodologies and issues. Fundamental IR models examined: Boolean, Vector Space, Probabilistic models, and evaluation strategies.",
+    "whenTaught": "Spring",
+    "prereqs": "CS 240"
+  },
+  {
+    "code": "CS 452",
+    "category": "400",
+    "subcategory": "Machine Learning",
+    "name": "Database Modeling Concepts",
+    "credits": "3",
+    "description": "Database models: relational, deductive, object-oriented. Integrity constraints, query languages, database design.",
+    "whenTaught": "Fall/Spring",
+    "prereqs": "CS 240"
+  },
+  {
+    "code": "CS 256",
+    "category": "200",
+    "subcategory": "Software Engineering",
+    "name": "Introduction to HCI",
+    "credits": "3",
+    "description": "Design user experiences with technology that make a meaningful difference in people’s lives. Methods to establish user needs, derive designs, assess tradeoffs, and report results. Develop and iterate prototypes with feedback from representative users.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CS 356",
+    "category": "300",
+    "subcategory": "Software Engineering",
+    "name": "Advanced Techniques in HCI",
+    "credits": "3",
+    "description": "This class combines designing the user experience with implementing the technology. Students learn website design, information architecture, and how to design for the broader ecosystem of use. Finally, students will learn principles specifically relevant to website design and information architecture. Web design is one of the most common UX jobs and so this makes their skills highly marketable.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "CS 256, CS 260"
+  },
+  {
+    "code": "CS 355",
+    "category": "300",
+    "subcategory": "Animation and Games",
+    "name": "Graphics and Image Processing",
+    "credits": "3",
+    "description": "Introduces basic concepts of computer graphics and image processing. Includes characteristics of physical cameras and displays; color models; basic image processing algorithms: 2D and 3D homogeneous coordinate transformations; fundamentals of 3D rendering geometry; lighting and shading: image warping and texture mapping; and frequency-domain processing.",
+    "whenTaught": "Fall, Winter",
+    "prereqs": "CS 240"
+  },
+  {
+    "code": "CS 455",
+    "category": "400",
+    "subcategory": "Animation and Games",
+    "name": "Computer Graphics",
+    "credits": "3",
+    "description": "Interactive computer graphics systems programming and architecture.",
+    "whenTaught": "Winter",
+    "prereqs": "CS 355, MATH 213, MATH 215"
+  },
+  {
+    "code": "CS 329",
+    "category": "300",
+    "subcategory": "Software Engineering",
+    "name": "Test, Analysis, & Verification",
+    "credits": "3",
+    "description": "Fundamental challenge of software quality through the entire software product life-cycle. Sound engineering principles to ensure and assure quality at each stage of the life-cycle with an emphasis in early stages on testing techniques, dynamic and static program analysis, and formal verification for high assurance systems. Practical application to software artifacts and algorithm implementation connects the course material to real world application in the field.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 240"
+  },
+  {
+    "code": "CS 202",
+    "category": "200",
+    "subcategory": "Software Engineering",
+    "name": "Software Engineering 1",
+    "credits": "1",
+    "description": "The first of three experiential learning labs that will provide students with hands-on experience with various tools, technologies, and techniques that software engineers use in practice. In addition to hands-on lab experiences, this course contains lecture and assigned reading content that will provide an understanding of what a software engineering career is and what roles and responsibilities are available to software engineers.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 111"
+  },
+  {
+    "code": "CS 203",
+    "category": "200",
+    "subcategory": "Software Engineering",
+    "name": "Software Engineering 2",
+    "credits": "1",
+    "description": "The second of three experiential learning labs that will provide students with hands-on experience with various tools, technologies, and techniques that software engineers use in practice. The lab experiences in this course build on those learned in CS 202 and focus on tools and techniques for source code testing, automated source code analysis, and source code build and dependency management.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 111"
+  },
+  {
+    "code": "CS 204",
+    "category": "200",
+    "subcategory": "Software Engineering",
+    "name": "Software Engineering 3",
+    "credits": "1",
+    "description": "The third of three experiential learning labs that will provide students with hands-on experience with various tools, technologies, and techniques that software engineers use in practice. The lab experiences in this course build on those learned in CS 202 and CS 203 and focus on tools and techniques for cloud development and Agile programming.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 111"
+  },
+  {
+    "code": "MATH 112",
+    "category": "100",
+    "subcategory": "Math",
+    "name": "Calculus 1",
+    "credits": "4",
+    "description": "Differential and integral calculus: limits; continuity; the derivative and applications; extrema; the definite integral; fundamental theorem of calculus; L'Hopital's rule.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "None"
+  },
+  {
+    "code": "MATH 113",
+    "category": "100",
+    "subcategory": "Math",
+    "name": "Calculus 2",
+    "credits": "4",
+    "description": "Techniques and applications of integration; sequences, series, convergence tests, power series; parametric equations; polar coordinates.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "MATH 112"
+  },
+  {
+    "code": "MATH 213",
+    "category": "200",
+    "subcategory": "Math",
+    "name": "Elementary Linear Algebra",
+    "credits": "2",
+    "description": "Concepts and applications of linear systems, matrices, vectors and vector spaces, linear transformations, determinants, inner product spaces, eigenvalues, and eigenvectors.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "MATH 112"
+  },
+  {
+    "code": "MATH 215",
+    "category": "200",
+    "subcategory": "Math",
+    "name": "Computational Linear Algebra",
+    "credits": "1",
+    "description": "Practical linear algebraic computations and applications.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "MATH 112"
+  },
+  {
+    "code": "MATH 290",
+    "category": "200",
+    "subcategory": "Math",
+    "name": "Fundamentals of Mathematics",
+    "credits": "3",
+    "description": "Achieving maturity in mathematical communication. Introduction to mathematical proof; methods of proof; analysis of proof; induction; logical reasoning.",
+    "whenTaught": "Fall/Winter/Spring",
+    "prereqs": "MATH 112"
+  },
+  {
+    "code": "CS 428",
+    "category": "400",
+    "subcategory": "Software Engineering",
+    "name": "Software Engineering",
+    "credits": "3",
+    "description": "Analysis, design, implementation, and testing of significant software systems.",
+    "whenTaught": "Winter",
+    "prereqs": "CS 340"
+  },
+  {
+    "code": "CS 474",
+    "category": "400",
+    "subcategory": "Machine Learning",
+    "name": "Deep Learning",
+    "credits": "3",
+    "description": "Theory and practice of modern deep learning and associated software frameworks. A broad look at the field, drawing on material from machine vision, machine translation, dynamical systems, audio processing, neural computing and human perception. Supporting mathematical concepts are also covered, including linear algebra, stochastic optimization, and hardware acceleration.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 312, MATH 213, MATH 215"
+  }
 ]
-  
-  
