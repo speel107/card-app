@@ -18,25 +18,29 @@ const FoodMenu = () => {
   const filteredFoods = subcategory ? foodData.filter(food => food.category === category && food.subcategory === subcategory) : foodData.filter(food => food.category === category);
 
   return (
-    <div className="food-menu">
-      <div className="tabs">
-        {categories.map(cat => (
-          <button key={cat} className={category === cat ? 'selected' : ''} onClick={() => { setCategory(cat); setSubcategory(null); }}>{cat}</button>
-        ))}
-      </div>
-      {category &&
-        <div className="subtabs">
-          {subcategories[category].map(subcat => (
-            <button key={subcat} className={subcategory === subcat ? 'selected' : ''} onClick={() => setSubcategory(subcat)}>{subcat}</button>
-          ))}
+    <html data-theme="pastel">
+      <div className="h-screen w-screen bg-base-100">
+        <div className="food-menu">
+          <div className="tabs">
+            {categories.map(cat => (
+              <button key={cat} className={category === cat ? 'selected' : ''} onClick={() => { setCategory(cat); setSubcategory(null); }}>{cat}</button>
+            ))}
+          </div>
+          {category &&
+            <div className="subtabs">
+              {subcategories[category].map(subcat => (
+                <button key={subcat} className={subcategory === subcat ? 'selected' : ''} onClick={() => setSubcategory(subcat)}>{subcat}</button>
+              ))}
+            </div>
+          }
+          <div className="food-card-container">
+            {filteredFoods.map(food => (
+              <FoodCard key={food.name} name={food.name} description={food.description} />
+            ))}
+          </div>
         </div>
-      }
-      <div className="food-card-container">
-        {filteredFoods.map(food => (
-          <FoodCard key={food.name} name={food.name} description={food.description} />
-        ))}
       </div>
-    </div>
+    </html>
   );
 };
 
