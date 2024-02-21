@@ -38,7 +38,7 @@ const ClassList = () => {
           }
           <div className="class-card-container">
             {filteredClasses.map(classCS => (
-              <ClassCard key={classCS.code} code={classCS.code} credits={classCS.credits} name={classCS.name} />
+              <ClassCard key={classCS.code} course={classCS} />
             ))}
           </div>
         </div>

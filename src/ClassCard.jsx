@@ -9,15 +9,15 @@ import './ClassCard.css';
 // when taught
 // prerequisites
 
-const ClassCard = ({ code, credits, name }) => {
+const ClassCard = ({ course }) => {
   return (
-    <div onClick={()=>document.getElementById(`${name}-modal`).showModal()} className="class-card hover:shadow-lg hover:scale-105">
-      <h3>{code} - {credits}</h3>
-      <p>{name}</p>
-    <dialog id={`${name}-modal`} className="modal">
+    <div onClick={()=>document.getElementById(`${course.name}-modal`).showModal()} className="class-card hover:shadow-lg hover:scale-105">
+      <h3>{course.code} - {course.credits}</h3>
+      <p>{course.name}</p>
+    <dialog id={`${course.name}-modal`} className="modal">
       <div className="modal-box">
-        <h3 className="font-bold text-lg">Hello!</h3>
-        <p className="py-4">Press ESC key or click outside to close</p>
+        <h3 className="font-bold text-lg">{course.name}</h3>
+        <p className="py-4">{course.description}</p>
         <div className="modal-action">
           <form method="dialog">
             <button className="btn">Close</button>
