@@ -3,7 +3,7 @@
     "code": "CS 111",
     "category": "100",
     "subcategory": "Intro",
-    "name": "Intro to Computer Science.",
+    "name": "Intro to Computer Science",
     "credits": "3",
     "description": "Teaches how to design, develop, reason about, and test programs. Topics include higher-order functions, object-oriented programming, recursion, algorithms, data structures, decomposition, interpreters, and regular expressions.",
     "whenTaught": "Fall/Winter/Spring/Summer",
