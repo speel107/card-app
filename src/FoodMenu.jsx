@@ -4,15 +4,16 @@ import foodData from './food.json';
 import FoodCard from './FoodCard';
 import './FoodMenu.css';
 
-const categories = ['Italian', 'Japanese', 'Mexican'];
+const categories = ['100', '200', '300', '400'];
 const subcategories = {
-  'Italian': ['Pizza', 'Pasta', 'Dessert'],
-  'Japanese': ['Sushi Rolls', 'Fried Dishes', 'Noodles', 'Dessert'],
-  'Mexican': ['Tacos', 'Burritos', 'Dips & Salsas', 'Dessert']
+  '100': ['Intro', 'Math'],
+  '200': ['Required', 'Software Engineering', 'Math'],
+  '300': ['Required', 'Software Engineering', 'Animation and Games'],
+  '400': ['Required', 'Machine Learning', 'Animation and Games'],
 };
 
 const FoodMenu = () => {
-  const [category, setCategory] = useState('Italian');
+  const [category, setCategory] = useState('100');
   const [subcategory, setSubcategory] = useState(null);
 
   const filteredFoods = subcategory ? foodData.filter(food => food.category === category && food.subcategory === subcategory) : foodData.filter(food => food.category === category);
