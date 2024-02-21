@@ -1,9 +1,9 @@
 import './App.css';
-import FoodMenu from './FoodMenu';
+import ClassList from './ClassList';
 
 function App() {
   return (
-    <FoodMenu/>
+    <ClassList/>
   );
 }
 

@@ -1,5 +1,5 @@
-/* FoodCard.css */
-.food-card {
+/* ClassCard.css */
+.class-card {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
@@ -7,11 +7,11 @@
     background-color: #f9f9f9;
   }
   
-  .food-card h3 {
+  .class-card h3 {
     margin-top: 0;
   }
   
-  .food-card p {
+  .class-card p {
     margin-bottom: 0;
   }
   

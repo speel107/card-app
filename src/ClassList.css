@@ -1,5 +1,5 @@
-/* FoodMenu.css */
-.food-menu {
+/* ClassList.css */
+.class-list {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -41,25 +41,25 @@
     border-bottom-color: #333;
   }
   
-  .food-menu .food-card-container {
+  .class-list .class-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
   }
   
-  .food-menu .food-card {
+  .class-list .class-card {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
     background-color: #f9f9f9;
   }
   
-  .food-menu .food-card h3 {
+  .class-list .class-card h3 {
     margin-top: 0;
     font-size: 18px;
   }
   
-  .food-menu .food-card p {
+  .class-list .class-card p {
     margin-bottom: 0;
   }
   
