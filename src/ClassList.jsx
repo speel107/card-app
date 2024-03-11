@@ -21,29 +21,27 @@ const ClassList = () => {
     classData.filter(classCS => classCS.category === category);
 
   return (
-    <html data-theme="pastel">
-      <div className="h-screen w-screen bg-base-100">
-        <div className="class-list">
+    <div className="flex-1 w-screen bg-base-100 overflow-y-scroll">
+      <div className="class-list">
+        <div className="tabs">
+          {categories.map(cat => (
+            <button key={cat} className={`${category === cat ? 'selected' : ''} btn btn-neutral text-primary mr-2 mb-4 rounded-sm hover:btn-secondary`} onClick={() => { setCategory(cat); setSubcategory(null); }}>{cat}</button>
+          ))}
+        </div>
+        {category &&
           <div className="tabs">
-            {categories.map(cat => (
-              <button key={cat} className={category === cat ? 'selected' : ''} onClick={() => { setCategory(cat); setSubcategory(null); }}>{cat}</button>
+            {subcategories[category].map(subcat => (
+              <button key={subcat} className={`${subcategory === subcat ? 'selected' : ''} btn btn-neutral text-primary mr-2 mb-4 rounded-sm hover:btn-secondary`} onClick={() => setSubcategory(subcat)}>{subcat}</button>
             ))}
           </div>
-          {category &&
-            <div className="subtabs">
-              {subcategories[category].map(subcat => (
-                <button key={subcat} className={subcategory === subcat ? 'selected' : ''} onClick={() => setSubcategory(subcat)}>{subcat}</button>
-              ))}
-            </div>
-          }
-          <div className="class-card-container">
-            {filteredClasses.map(classCS => (
-              <ClassCard key={classCS.code} course={classCS} />
-            ))}
-          </div>
+        }
+        <div className="class-card-container">
+          {filteredClasses.map(classCS => (
+            <ClassCard key={classCS.code} course={classCS} />
+          ))}
         </div>
       </div>
-    </html>
+    </div>
   );
 };
 

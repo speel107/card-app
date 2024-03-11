@@ -9,18 +9,17 @@
     display: flex;
   }
   
+  /* set background-color to  */
   .tabs button {
-    background-color: #f9f9f9;
-    border: none;
+    background-color: #ededed;
     border-bottom: 2px solid transparent;
     padding: 10px 20px;
-    margin-right: 10px;
     font-size: 16px;
     cursor: pointer;
   }
   
   .tabs button.selected {
-    border-bottom-color: #333;
+    border-bottom-color: #002d5f;
   }
   
   .subtabs {
