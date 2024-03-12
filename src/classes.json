@@ -300,6 +300,116 @@
     "prereqs": "MATH 112"
   },
   {
+    "code": "STAT 201",
+    "category": "200",
+    "subcategory": "Stats",
+    "name": "Stat for Engineers & Scientists",
+    "credits": "3",
+    "description": "The scientific method; probability, random variables, common discrete and continuous random variables, central limit theorem; confidence intervals and hypothesis testing; completely randomized experiments; factorial experiments.",
+    "whenTaught": "Fall/Winter/Spring",
+    "prereqs": "MATH 112, MATH 113 or MATH 119"
+  },
+  {
+    "code": "STAT 220",
+    "category": "200",
+    "subcategory": "Stats",
+    "name": "Stat Modeling for Data Science",
+    "credits": "3",
+    "description": "Statistical thinking, basic probability and random variables, estimation, uncertainty in estimation, inference and interpretation for the linear model, prediction, model comparison, introduction to Bayesian statistics, binary data, evaluating classification models, data ethics and privacy",
+    "whenTaught": "Fall",
+    "prereqs": "STAT 121, CS 110, CS 111"
+  },
+  {
+    "code": "STAT 251",
+    "category": "200",
+    "subcategory": "Stats",
+    "name": "Into to Bayesian Statistics",
+    "credits": "3",
+    "description": "The scientific method; conditional probability; Bayes' Theorem; conjugate distributions: Beta-binomial, Poisson-gamma, normal-normal; Gibbs sampling.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "MATH 113, STAT 240, STAT 250"
+  },
+  {
+    "code": "STAT 240",
+    "category": "200",
+    "subcategory": "Stats",
+    "name": "Probability and Interface 1",
+    "credits": "3",
+    "description": "Set theory; probability; principles of counting; random variables; mathematical expectation; sampling distributions; point estimation.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "MATH 112, MATH 113, STAT 121, STAT 201"
+  },
+  {
+    "code": "BIO 250",
+    "category": "200",
+    "subcategory": "Biology",
+    "name": "Evolutionary Medicine",
+    "credits": "2",
+    "description": "Evolutionary medicine is the field of study of how Darwinian principles can be applied to understand problems in medicine and public health. Students will learn foundational principles of evolution including genetic processes of adaptation and genetic drift, the origin of life, and the hominin fossil record. With this foundational understanding, students will explore modern examples of evolution and human health problems.",
+    "whenTaught": "Fall/Winter/Spring",
+    "prereqs": "BIO 130, CELL 120, MMBIO 121"
+  },
+  {
+    "code": "BIO 264",
+    "category": "200",
+    "subcategory": "Biology",
+    "name": "Stat Analysis for Biologists",
+    "credits": "4",
+    "description": "Students will learn concepts and applications of statistics and their specific application to research questions spanning diverse subfields of biology. Students will perform these analyses using the R statistical software.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "BIO 130, CELL 120, MMBIO 121"
+  },
+  {
+    "code": "MMBIO 240",
+    "category": "200",
+    "subcategory": "Biology",
+    "name": "Molecular Biology",
+    "credits": "3",
+    "description": "Fundamentals of protein and nucleic acid structure and their function in the context of the classical experiments that have informed our current models of biology at the molecular level.",
+    "whenTaught": "Fall/Winter/Spring",
+    "prereqs": "BIO 130, MMBIO 121, CELL 120"
+  },
+  {
+    "code": "CSANM 250",
+    "category": "200",
+    "subcategory": "Animation",
+    "name": "Interm 3D Computer Graphics",
+    "credits": "2",
+    "description": "Fundaments of building three-dimensional computer models and setting up model rigs for mobility.",
+    "whenTaught": "Fall",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 252",
+    "category": "200",
+    "subcategory": "Animation",
+    "name": "Intro 3D Animation",
+    "credits": "3",
+    "description": "Foundational principles and techniques of three-dimensional animation, including timing and pacing, character setup, and dynamics.",
+    "whenTaught": "Winter",
+    "prereqs": "CSANM 250"
+  },
+  {
+    "code": "CSANM 258",
+    "category": "200",
+    "subcategory": "Animation",
+    "name": "Scripting for Animation",
+    "credits": "3",
+    "description": "Developing basic scripting skills to procedurally build intricate systems of models, rigs, and animation. Students learn how to reduce manual hours and efficiently create simple to complex effects.",
+    "whenTaught": "Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 210",
+    "category": "200",
+    "subcategory": "Animation",
+    "name": "Visual Narrative",
+    "credits": "3",
+    "description": "This class teaches foundational skills that animation students require when working in a shot-based production environment. Cinematography, layout, composition and storytelling techniques will be a focus of study.",
+    "whenTaught": "Fall",
+    "prereqs": "None"
+  },
+  {
     "code": "CS 428",
     "category": "400",
     "subcategory": "Software Engineering",
