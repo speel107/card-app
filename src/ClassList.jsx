@@ -61,7 +61,7 @@ const ClassList = () => {
                 key={subcat}
                 className={`${
                   subcategory === subcat ? "selected" : ""
-                } btn btn-neutral text-primary mr-2 mb-4 rounded-sm hover:btn-secondary`}
+                } btn btn-neutral text-primary mr-2 rounded-sm hover:btn-secondary`}
                 onClick={() => setSubcategory(subcat)}
               >
                 {subcat}
@@ -69,6 +69,8 @@ const ClassList = () => {
             ))}
           </div>
         )}
+        {/* add divider line in tailwind */}
+        <hr className="border-2 border-primary my-4" />
         <div className="class-card-container">
           {filteredClasses.map((classCS) => (
             <ClassCard key={classCS.code} course={classCS} />
