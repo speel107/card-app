@@ -17,9 +17,15 @@
     font-size: 16px;
     cursor: pointer;
   }
+
+  .tabs button.selected:hover {
+    /* border-bottom-color: #002d5f; */
+    border-bottom-color: #002d5f;
+  }
   
   .tabs button.selected {
-    border-bottom-color: #002d5f;
+    /* border-bottom-color: #002d5f; */
+    border-bottom-color: #f0a332;
   }
   
   .subtabs {

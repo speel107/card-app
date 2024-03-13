@@ -14,7 +14,7 @@ const ClassCard = ({ course }) => {
       onClick={() =>
         document.getElementById(`${course.name}-modal`).showModal()
       }
-      className="card bg-neutral rounded-sm border-primary border-2 hover:shadow-lg hover:scale-105"
+      className="card bg-neutral rounded-sm border-primary border-2 hover:shadow-lg hover:scale-105 hover:border-accent"
     >
       <div className="card-body">
         <h3 className="font-bold text-primary">

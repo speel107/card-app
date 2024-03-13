@@ -12,8 +12,9 @@ module.exports = {
       {
         byu: {
           "primary": "#002d5f",
-          "secondary": "#0056b8",
-          "accent": "#011932",
+          "secondary": "#004592",
+          // "accent": "#011932",
+          "accent": "#f0a332",
           "neutral": "#ededed",
           "neutral-content": "#b0b0b0",
           "base-100": "#fbfffc",
