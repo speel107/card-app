@@ -69,7 +69,6 @@ const ClassList = () => {
             ))}
           </div>
         )}
-        {/* add divider line in tailwind */}
         <hr className="border-2 border-primary my-4" />
         <div className="class-card-container">
           {filteredClasses.map((classCS) => (
