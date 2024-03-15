@@ -4,7 +4,7 @@ export const Footer = memo(() => {
   return (
     <footer className="footer items-center p-4 bg-primary text-neutral-content mx-auto">
       <aside className="items-center grid-flow-col mx-auto">
-        <p>Copyright © 2024 - All right reserved</p>
+        <p>Copyright © 2024 - All rights reserved</p>
       </aside> 
       {/* <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
       </nav> */}

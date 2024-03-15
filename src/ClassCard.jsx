@@ -1,13 +1,6 @@
 // ClassCard.jsx
 import React from "react";
 
-// class code*
-// class title*
-// description
-// credit hours*
-// when taught
-// prerequisites
-
 const ClassCard = ({ course }) => {
   return (
     <div

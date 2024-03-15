@@ -69,7 +69,7 @@ const ClassList = () => {
             ))}
           </div>
         )}
-        <hr className="border-2 border-primary my-4" />
+        <hr className="border-1 border-primary mt-4 mb-8" />
         <div className="class-card-container">
           {filteredClasses.map((classCS) => (
             <ClassCard key={classCS.code} course={classCS} />

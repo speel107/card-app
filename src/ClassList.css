@@ -1,6 +1,7 @@
 /* ClassList.css */
 .class-list {
-    max-width: 800px;
+    max-width: 1280px;
+    width: 75%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -11,6 +12,7 @@
   
   /* set background-color to  */
   .tabs button {
+    flex: 1;
     background-color: #ededed;
     border-bottom: 2px solid transparent;
     padding: 10px 20px;
