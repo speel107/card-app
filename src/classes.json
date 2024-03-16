@@ -342,7 +342,7 @@
   {
     "code": "BIO 250",
     "category": "200",
-    "subcategory": "Biology",
+    "subcategory": "Bioinformatics",
     "name": "Evolutionary Medicine",
     "credits": "2",
     "description": "Evolutionary medicine is the field of study of how Darwinian principles can be applied to understand problems in medicine and public health. Students will learn foundational principles of evolution including genetic processes of adaptation and genetic drift, the origin of life, and the hominin fossil record. With this foundational understanding, students will explore modern examples of evolution and human health problems.",
@@ -352,7 +352,7 @@
   {
     "code": "BIO 264",
     "category": "200",
-    "subcategory": "Biology",
+    "subcategory": "Bioinformatics",
     "name": "Stat Analysis for Biologists",
     "credits": "4",
     "description": "Students will learn concepts and applications of statistics and their specific application to research questions spanning diverse subfields of biology. Students will perform these analyses using the R statistical software.",
@@ -362,7 +362,7 @@
   {
     "code": "MMBIO 240",
     "category": "200",
-    "subcategory": "Biology",
+    "subcategory": "Bioinformatics",
     "name": "Molecular Biology",
     "credits": "3",
     "description": "Fundamentals of protein and nucleic acid structure and their function in the context of the classical experiments that have informed our current models of biology at the molecular level.",
@@ -428,5 +428,185 @@
     "description": "Theory and practice of modern deep learning and associated software frameworks. A broad look at the field, drawing on material from machine vision, machine translation, dynamical systems, audio processing, neural computing and human perception. Supporting mathematical concepts are also covered, including linear algebra, stochastic optimization, and hardware acceleration.",
     "whenTaught": "Fall/Winter",
     "prereqs": "CS 312, MATH 213, MATH 215"
+  },
+  {
+    "code": "CS 330",
+    "category": "300",
+    "subcategory": "",
+    "name": "Concepts of Programming Lang",
+    "credits": "3",
+    "description": "Principles and concepts characterizing high-level computer programming languages, process and data abstraction, encapsulation, inheritance, functional programming, logic programming, scanners, and parsers.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 236, CS 224, CS 260, CS 235, MATH 290"
+  },
+  {
+    "code": "CS 345",
+    "category": "300",
+    "subcategory": "",
+    "name": "Operating Systems Design",
+    "credits": "3",
+    "description": "Principles and concepts of operating systems design and the implementation of an operating system.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 224, CS 240"
+  },
+  {
+    "code": "EC EN 330",
+    "category": "300",
+    "subcategory": "",
+    "name": "Intro Embedded Programming",
+    "credits": "4",
+    "description": "Understanding the hardware-software interface in an embedded system. Using C and assembly language in device-driver design. Software interfacing to peripherals. Performance and memory issues. Hardware interrupt programming.",
+    "whenTaught": "Fall",
+    "prereqs": "CS 235, EC EN 220"
+  },
+  {
+    "code": "CSANM 352",
+    "category": "300",
+    "subcategory": "Animation",
+    "name": "Animated Film Production 1",
+    "credits": "3",
+    "description": "Early development of a film, including character design, environments, pipeline, visual effects, and the look and feel the film. All pre-visualization of the film. Practice collaborative production processes through interdisciplinary creative works or experiences.",
+    "whenTaught": "Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 340",
+    "category": "300",
+    "subcategory": "Animation",
+    "name": "Game Design",
+    "credits": "3",
+    "description": "This is an introductory elective course in game design. We will cover foundational game elements and the processes for designing game experiences. These principles are ubiquitously foundational to all parts of the video game development pipeline. This class helps students develop understanding and intuition for the techniques that make gameplay and accompanying worlds successful.",
+    "whenTaught": "Fall",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 342",
+    "category": "300",
+    "subcategory": "Animation",
+    "name": "Real-time Techniques",
+    "credits": "3",
+    "description": "This class introduces students to real-time applications. It provides principles foundational for creating video games and other real-time media. Students learn how to mock up basic game mechanics in a realtime engine, such as Unreal Engine, and create basic environments and characters for a real time engine. This is meant to be an introduction to a variety of skills that students can take further and deeper on future projects.",
+    "whenTaught": "Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 353",
+    "category": "300",
+    "subcategory": "Animation",
+    "name": "Previsualization",
+    "credits": "3",
+    "description": "This class teaches the art and technical aspects of previsualization using 3D software and cameras. This technique is crucial to the modern filmmaking process, and students will learn the process through principles and experience.",
+    "whenTaught": "Winter",
+    "prereqs": "CSANM 250, CSANM 252"
+  },
+  {
+    "code": "CSANM 354",
+    "category": "300",
+    "subcategory": "Animation",
+    "name": "Materials and Surfacing",
+    "credits": "3",
+    "description": "Shading and rendering techniques for the attainment of desired visual effects: use of shading languages for the realization of both photorealistic and non-photorealistic imaging.",
+    "whenTaught": "Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 355",
+    "category": "300",
+    "subcategory": "Animation",
+    "name": "Photography for Animation",
+    "credits": "3",
+    "description": "Layout, references, camera technology and terminology, application of composition, lighting, and core art skills emphasized.",
+    "whenTaught": "Spring",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 452",
+    "category": "400",
+    "subcategory": "Animation",
+    "name": "Senior Film Production 2",
+    "credits": "3",
+    "description": "Portfolio development based on advanced animation/design projects. Senior film production and post production.",
+    "whenTaught": "Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 454",
+    "category": "400",
+    "subcategory": "Animation",
+    "name": "Advanced Shading",
+    "credits": "3",
+    "description": "Advanced shading, rendering, and lighting methods for creating virtual scenes that emphasize story and innovatively meet an art director's vision through traditional and procedural methods.",
+    "whenTaught": "Winter",
+    "prereqs": "None"
+  },
+  {
+    "code": "CSANM 458",
+    "category": "400",
+    "subcategory": "Animation",
+    "name": "3D Visual Effects",
+    "credits": "3",
+    "description": "Exploring procedural and three-dimensional animation methods to create realistic special effects. Applying a large spectrum of animation principles to integrate their effects aesthetically and convincingly into a live action or animated environment.",
+    "whenTaught": "Spring",
+    "prereqs": "None"
+  },
+  {
+    "code": "BIO 465",
+    "category": "400",
+    "subcategory": "Bioinformatics",
+    "name": "Capstone in Bioinformatics",
+    "credits": "3",
+    "description": "Students will apply principles of bioinformatics to complete a complex project that integrates their disciplinary understanding to address a broad, integrative computational problem. This culminating experience will allow students to create a project that will facilitate their transition into a post baccalaureate environment.",
+    "whenTaught": "Winter",
+    "prereqs": "BIO 364"
+  },
+  {
+    "code": "BIO 364",
+    "category": "300",
+    "subcategory": "Bioinformatics",
+    "name": "Bioinformatics Algorithms",
+    "credits": "3",
+    "description": "In this course, students learn theory and concepts of bioinformatics algorithms that are used in the field. They gain experience implementing these algorithms and applying them. These algorithms are used in diverse biological disciplines, including genome assembly, phylogenetics, multiple sequence alignment, next-generation sequencing read mapping, gene-expression analysis, and mass-spectrometry analysis.",
+    "whenTaught": "Fall",
+    "prereqs": "CS 240, MMBIO 240"
+  },
+  {
+    "code": "BIO 420",
+    "category": "400",
+    "subcategory": "Bioinformatics",
+    "name": "Evolutionary Biology",
+    "credits": "4",
+    "description": "Intensive examination of evolution as the conceptual cornerstone of biology.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "PWS 340"
+  },
+  {
+    "code": "BIO 463",
+    "category": "400",
+    "subcategory": "Bioinformatics",
+    "name": "Genetics of Human Disease",
+    "credits": "3",
+    "description": "Examining the application of genetics to understanding and treatment of human disease. Functional consequences of mutations; use of model organisms; linkage and association analysis of complex traits; pharmacogenetics; ethical considerations.",
+    "whenTaught": "Winter",
+    "prereqs": "PWS 340"
+  },
+  {
+    "code": "MATH 380",
+    "category": "300",
+    "subcategory": "Math",
+    "name": "Mathematics of Data Science",
+    "credits": "3",
+    "description": "Mathematical aspects of data science, including high-dimensional geometry and linear algebra, optimization, and probabilistic modeling.",
+    "whenTaught": "Fall/Winter",
+    "prereqs": "CS 280, MATH 215, STAT 121"
+  },
+  {
+    "code": "MATH 314",
+    "category": "300",
+    "subcategory": "Math",
+    "name": "Calculus of Several Variables",
+    "credits": "3",
+    "description": "Partial differentiation, the Jacobian matrix, and integral theorems of vector calculus.",
+    "whenTaught": "Fall/Winter/Spring/Summer",
+    "prereqs": "MATH 113"
   }
 ]

@@ -10,17 +10,24 @@ const subcategories = {
   200: [
     "Required",
     "Software Engineering",
-    "Math",
-    "Biology",
-    "Stats",
     "Animation",
+    "Bioinformatics",
+    "Math",
+    "Stats",
   ],
-  300: ["Required", "Software Engineering", "Animation and Games"],
+  300: [
+    "Required",
+    "Software Engineering",
+    "Animation",
+    "Bioinformatics",
+    "Math",
+  ],
   400: [
     "Required",
     "Software Engineering",
+    "Animation",
+    "Bioinformatics",
     "Machine Learning",
-    "Animation and Games",
   ],
 };
 
