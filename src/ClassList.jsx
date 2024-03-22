@@ -45,13 +45,13 @@ const ClassList = () => {
   return (
     <div className="flex-1 w-screen bg-base-100 overflow-y-scroll">
       <div className="class-list">
-        <div className="tabs">
+        <div className="tabs justify-between space-x-2">
           {categories.map((cat) => (
             <button
               key={cat}
               className={`${
                 category === cat ? "selected" : ""
-              } btn btn-neutral text-primary mr-2 mb-4 rounded-sm hover:btn-secondary`}
+              } btn btn-neutral text-primary mb-4 rounded-sm hover:btn-secondary`}
               onClick={() => {
                 setCategory(cat);
                 setSubcategory(null);
@@ -62,13 +62,13 @@ const ClassList = () => {
           ))}
         </div>
         {category && (
-          <div className="tabs">
+          <div className="tabs justify-between space-x-2">
             {subcategories[category].map((subcat) => (
               <button
                 key={subcat}
                 className={`${
                   subcategory === subcat ? "selected" : ""
-                } btn btn-neutral text-primary mr-2 rounded-sm hover:btn-secondary`}
+                } btn btn-neutral text-primary rounded-sm hover:btn-secondary`}
                 onClick={() => setSubcategory(subcat)}
               >
                 {subcat}
