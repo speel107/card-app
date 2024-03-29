@@ -1,5 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  safelist: [
+    'w-1/2',
+    'w-1/3',
+    'w-1/4',
+    'w-1/5',
+    'w-1/6',
+  ],
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],

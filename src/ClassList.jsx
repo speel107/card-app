@@ -34,6 +34,9 @@ const subcategories = {
 const ClassList = () => {
   const [category, setCategory] = useState("100");
   const [subcategory, setSubcategory] = useState(null);
+  const [subCategoriesLen, setSubCategoriesLen] = useState("w-1/" + (subcategories["100"].length).toString());
+
+  console.log(subCategoriesLen);
 
   const filteredClasses = subcategory
     ? classData.filter(
@@ -43,41 +46,55 @@ const ClassList = () => {
     : classData.filter((classCS) => classCS.category === category);
 
   return (
-    <div className="flex-1 w-screen bg-base-100 overflow-y-scroll">
-      <div className="class-list">
-        <div className="tabs justify-between space-x-2">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              className={`${
-                category === cat ? "selected" : ""
-              } btn btn-neutral text-primary mb-4 rounded-sm hover:btn-secondary`}
-              onClick={() => {
-                setCategory(cat);
-                setSubcategory(null);
-              }}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
-        {category && (
-          <div className="tabs justify-between space-x-2">
-            {subcategories[category].map((subcat) => (
-              <button
-                key={subcat}
-                className={`${
-                  subcategory === subcat ? "selected" : ""
-                } btn btn-neutral text-primary rounded-sm hover:btn-secondary`}
-                onClick={() => setSubcategory(subcat)}
-              >
-                {subcat}
-              </button>
+    <div className="flex flex-col my-4 mx-auto w-3/4 pt-2 mt-0 px-2 mb-auto overflow-y-scroll">
+      {/* <div className="flex-1 w-screen bg-base-100 fixed"> */}
+        <div className="w-full mt-4 mx-auto px-2 top-0 z-50 bg-base-100">
+          <div className="divider divider-accent mt-0 font-bold text-primary">Course Level</div>
+          <div className="tabs flex justify-between -mr-2">
+            {categories.map((cat) => (
+              <div className="w-1/4 mr-2">
+                <button
+                  key={cat}
+                  onClick={() => {
+                    setCategory(cat);
+                    setSubcategory(null);
+                    setSubCategoriesLen("w-1/" + (subcategories["100"].length).toString());
+                  }}
+                  className={`${
+                    category === cat ? "selected" : ""
+                  } w-full flex btn btn-neutral text-primary mb-4 rounded-md hover:btn-secondary`}
+                >
+                  {cat}
+                </button>
+              </div>
             ))}
           </div>
-        )}
-        <hr className="border-1 border-primary mt-4 mb-8" />
-        <div className="class-card-container">
+          <div className="divider divider-accent mt-2 font-bold text-primary">Category</div>
+          {category && (
+            <div className="tabs flex justify-between -mr-2">
+              {subcategories[category].map((subcat) => (
+                <div className={`${subCategoriesLen} mr-2`}>
+                  <button
+                    key={subcat}
+                    onClick={() => {
+                      setSubcategory(subcat);
+                      setSubCategoriesLen("w-1/" + (subcategories[category].length).toString());
+                    }}
+                    className={`${
+                      subcategory === subcat ? "selected" : ""
+                    } w-full btn btn-neutral text-primary rounded-md hover:btn-secondary`}
+                  >
+                    {subcat}
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+          <div className="divider divider-accent mt-2 mb-0"></div>
+        </div>
+      {/* </div> */}
+      <div className="flex my-0 mx-auto w-full p-2 overflow-y-scroll">
+        <div className="grid grid-flow-row text-neutral-600 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-between gap-4">
           {filteredClasses.map((classCS) => (
             <ClassCard key={classCS.code} course={classCS} />
           ))}
@@ -86,5 +103,6 @@ const ClassList = () => {
     </div>
   );
 };
+
 
 export default ClassList;

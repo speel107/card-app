@@ -7,7 +7,7 @@ const ClassCard = ({ course }) => {
       onClick={() =>
         document.getElementById(`${course.name}-modal`).showModal()
       }
-      className="card bg-neutral rounded-sm border-primary border-2 hover:shadow-lg hover:scale-105 hover:border-accent"
+      className="card bg-neutral rounded-md border-primary border-2 hover:shadow-lg hover:scale-105 hover:border-accent"
     >
       <div className="card-body">
         <h3 className="font-bold text-primary">
@@ -31,7 +31,7 @@ const ClassCard = ({ course }) => {
             </p>
             <div className="modal-action">
               <form method="dialog">
-                <button className="btn btn-neutral-content hover:btn-secondary rounded-sm border-2 border-secondary">Close</button>
+                <button className="btn btn-neutral-content hover:btn-secondary rounded-md border-2 border-secondary">Close</button>
               </form>
             </div>
           </div>
