@@ -49,7 +49,7 @@ const ClassList = () => {
     <div className="flex flex-col my-4 mx-auto w-3/4 pt-2 mt-0 px-2 mb-auto overflow-y-scroll">
       {/* <div className="flex-1 w-screen bg-base-100 fixed"> */}
         <div className="w-full mt-4 mx-auto px-2 top-0 z-50 bg-base-100">
-          <div className="divider divider-accent mt-0 font-bold text-primary">Course Level</div>
+          <div className="divider divider-neutral mt-0 font-bold text-primary">Course Level</div>
           <div className="tabs flex justify-between -mr-2">
             {categories.map((cat) => (
               <div className="w-1/4 mr-2">
@@ -69,7 +69,7 @@ const ClassList = () => {
               </div>
             ))}
           </div>
-          <div className="divider divider-accent mt-2 font-bold text-primary">Category</div>
+          <div className="divider divider-neutral mt-2 font-bold text-primary">Category</div>
           {category && (
             <div className="tabs flex justify-between -mr-2">
               {subcategories[category].map((subcat) => (
@@ -90,7 +90,7 @@ const ClassList = () => {
               ))}
             </div>
           )}
-          <div className="divider divider-accent mt-2 mb-0"></div>
+          <div className="divider divider-neutral mt-2 mb-0"></div>
         </div>
       {/* </div> */}
       <div className="flex my-0 mx-auto w-full p-2 overflow-y-scroll">
