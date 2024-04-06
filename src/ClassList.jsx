@@ -75,7 +75,7 @@ const ClassList = () => {
               </div>
             ))}
           </div>
-          <div className={`divider divider-neutral mt-2 font-bold text-primary`}>{category === "All" ? "All CS Courses" : "Subcategory"}</div>
+          <div className={`divider divider-neutral mt-2 font-bold text-primary`}>{category === "All" ? "All CS Courses" : "Category"}</div>
           {category && (
             category !== "All" &&
             <div className="tabs flex justify-between -mr-2">
